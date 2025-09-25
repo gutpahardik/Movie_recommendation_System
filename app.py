@@ -8,3 +8,4 @@ movies = pd.DataFrame(movies_dict)
 
 st.title("Movie Recommendation System")
 option = st.selectbox("Enter the name of a movie",movies['title'].values)
+
